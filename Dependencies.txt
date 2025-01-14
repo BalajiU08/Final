@@ -1,0 +1,58 @@
+To proceed with the backend, you should have the following **node.js** packages installed. Here's a list of the core dependencies used in your project:
+
+### **Required Dependencies**
+1. **express**: For setting up the server and handling HTTP requests.
+   - Installation: `npm install express`
+
+2. **mongoose**: For MongoDB interaction and schema definitions.
+   - Installation: `npm install mongoose`
+
+3. **bcryptjs**: For hashing passwords securely.
+   - Installation: `npm install bcryptjs`
+
+4. **jsonwebtoken (JWT)**: For generating and verifying JWT tokens for authentication.
+   - Installation: `npm install jsonwebtoken`
+
+5. **dotenv**: To load environment variables (such as your JWT secret and database URL) from a `.env` file.
+   - Installation: `npm install dotenv`
+
+6. **body-parser**: To parse incoming request bodies in JSON format.
+   - Installation: `npm install body-parser`
+
+7. **express-validator**: To validate and sanitize input data.
+   - Installation: `npm install express-validator`
+
+8. **cors**: To handle Cross-Origin Resource Sharing (CORS) for front-end-backend communication.
+   - Installation: `npm install cors`
+
+### **Optional/Development Dependencies**
+1. **nodemon**: For automatically restarting the server during development when files are modified.
+   - Installation: `npm install --save-dev nodemon`
+
+---
+
+### **Steps to Install Dependencies**
+1. **Create a `package.json` file** (if you don't already have one):
+   - Run `npm init -y` to create a default `package.json`.
+
+2. **Install all the dependencies** by running:
+   ```bash
+   npm install express mongoose bcryptjs jsonwebtoken dotenv body-parser express-validator cors
+   ```
+
+3. **Optional for Development**: 
+   - Install `nodemon` for easy development:
+     ```bash
+     npm install --save-dev nodemon
+     ```
+
+4. **Set up your `.env` file**:
+   - Add your sensitive data (like JWT secret and MongoDB connection string) in the `.env` file:
+     ```
+     JWT_SECRET=your-secret-key
+     MONGO_URI=mongodb://localhost:27017/your-database
+     ```
+
+Once the required files are set up and dependencies installed, you're good to go for both backend and frontend development.
+
+Let me know if you need help with setting up any files or configurations!
