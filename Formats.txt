@@ -1,0 +1,74 @@
+To Register User:
+User:
+{
+    "name": "John Doe",
+    "email": "john.doe@example.com",
+    "password": "securepassword123",
+    "age": 30,
+    "occupation": "Engineer",
+    "annualIncome": 500000,
+    "aadharNumber": "123456789012",
+    "role": "User"
+}
+
+Admin:
+{
+  "name": "Balaji U",
+  "email": "balajistunner08@gmail.com",
+  "password": "balajiking08",
+  "age": 20,
+  "occupation": "Student",
+  "role": "Admin",
+  "aadharNumber": "236331342766"
+}
+
+To Login:
+{
+  "email": "balajistunner08@gmail.com",
+  "password": "balajiking08",
+  "aadharNumber": "236331342766"
+}
+
+Grievance Form:
+{
+  "aadharNumber": "123456789012",
+  "description": "Unable to access my profile"
+}
+
+To Add Scheme:
+{
+  "name": "Girls Scheme",
+  "description": "Girls can receive an amout of R.S.1000 monthly.",
+  "eligibility": "School Students",
+  "deadline": "2025-12-31",
+  "annualIncome": 0
+}
+
+To Update Scheme:
+{
+    "name": "Updated Scheme Name",
+    "annualIncome": 250000
+}
+
+To Update User:
+{
+    "name" :"Admin Balaji"
+}
+
+To Delete Scheme:
+Nothing Needed Inside Body
+
+To List all Users:
+Nothing Needed Inside Body
+
+To List Specific User:
+Nothing Needed Inside Body
+
+To List all SchemeS:
+Nothing Needed Inside Body
+
+To List Specific Scheme:
+Nothing Needed Inside Body
+
+
+

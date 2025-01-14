@@ -1,0 +1,87 @@
+register: http://localhost:5000/api/users/register
+
+Header : Content-Type  application/json
+
+login: http://localhost:5000/api/users/login
+(token will appear)
+
+Header : Content-Type  application/json
+
+grievance form : http://localhost:5000/api/grievance
+
+Header : Authoraization  Bearer <JWT Token>
+
+for above all POST
+
+protected: http://localhost:5000/api/protected
+
+Header : Authorization  Bearer <Token>
+
+To view profile : http://localhost:5000/api/users/profile
+
+Header : Authorization  Bearer <Token>
+
+for above all GET
+
+Apply Scheme for a User : http://localhost:5000/api/users/applications/apply/<scheme_id>
+
+Header : Authorization  Bearer <Token>
+
+for above POST
+
+Add Schemes : http://localhost:5000/api/schemes/add
+
+No Header
+
+for above POST
+
+List Every Schemes Available : http://localhost:5000/api/schemes/
+
+Header: Authorization  Bearer <Admin_Token>
+
+for above GET
+
+Update Schemes : http://localhost:5000/api/schemes/update/<scheme_id>
+
+Header : Content-Type  application/json
+Header: Authorization  Bearer <Admin_Token>
+
+Update users : http://localhost:5000/api/users/update/<user_id>
+
+Header : Content-Type  application/json
+Header: Authorization  Bearer <User_Token>
+
+for above PUT
+
+Delete Schemes : http://localhost:5000/api/schemes/delete/<scheme_id>
+
+Header: Authorization  Bearer <Admin_Token>
+
+for above DELETE
+
+List ALL Schemes : http://localhost:5000/api/schemes/
+
+Header: Authorization  Bearer <Any_Token>
+
+List Specific Schemes: http://localhost:5000/api/schemes?annualIncome=100
+
+No Header
+
+List ALL Users(Admin) : http://localhost:5000/api/users
+
+Header: Authorization  Bearer <Admin_Token>
+
+List Specific User(aadharNumber) : http://localhost:5000/api/users/aadhaar/<aadharNumber>
+
+Header: Authorization  Bearer <Admin_Token>
+
+for above all GET
+
+To Apply Scheme : http://localhost:5000/api/applications/apply/<scheme_id>
+
+Header: Authorization  Bearer <User_Token>
+
+for above POST
+
+
+ 

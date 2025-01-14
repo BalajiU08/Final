@@ -1,0 +1,93 @@
+Register:
+User:
+{
+    "message": "User registered successfully",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2Nzg2M2Q4OGU1ZDEyMmE5NzFmNWI0OTciLCJpYXQiOjE3MzY4NTA4MjQsImV4cCI6MTczNjg1NDQyNH0.VKe6pUZJyhlOsIBlPAJsGL9qSxidGEFZJN86X8oRxPc"
+}
+
+Admin:
+{
+    "message": "User registered successfully",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2Nzg2M2UwMWU1ZDEyMmE5NzFmNWI0OWIiLCJpYXQiOjE3MzY4NTA5NDUsImV4cCI6MTczNjg1NDU0NX0.r_-DrHQqTjpgP6_CMzfQ1CUr8s4kqV3itxLahFpJwpA"
+}
+
+Login:
+{
+    "message": "Login successful",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2Nzg2M2UwMWU1ZDEyMmE5NzFmNWI0OWIiLCJpYXQiOjE3MzY4NTEwNTYsImV4cCI6MTczNjg1NDY1Nn0.TmOsPCwAES9MF0x5Zoa7iyUsYA1_LN8csrT-yoNCbMQ"
+}
+
+Grievance Form:
+{
+    "message": "Grievance submitted successfully"
+}
+
+Adding Scheme:
+{
+    "message": "Scheme added successfully"
+}
+
+Updating Scheme and User:
+{
+    "message": "User updated successfully",
+    "user": {
+        "_id": "67863e01e5d122a971f5b49b",
+        "name": "Admin Balaji",
+        "email": "balajistunner08@gmail.com",
+        "password": "$2a$10$oYrRNm4kLyNKmRbQ1gjF7eaYEvWB.G2z334jI8NNqlXdU.cHPpmxy",
+        "age": 20,
+        "occupation": "Student",
+        "appliedSchemes": [],
+        "role": "Admin",
+        "aadharNumber": "236331342766",
+        "__v": 0
+    }
+}
+
+Delete Scheme:
+{
+    "message": "Scheme deleted successfully"
+}
+
+List Users and User by aadhar:
+{
+    "_id": "67863e01e5d122a971f5b49b",
+    "name": "Admin Balaji",
+    "email": "balajistunner08@gmail.com",
+    "password": "$2a$10$oYrRNm4kLyNKmRbQ1gjF7eaYEvWB.G2z334jI8NNqlXdU.cHPpmxy",
+    "age": 20,
+    "occupation": "Student",
+    "appliedSchemes": [],
+    "role": "Admin",
+    "aadharNumber": "236331342766",
+    "__v": 0
+}
+
+List Schemes and Specific Schemes:
+[
+    {
+        "_id": "678642e2e5d122a971f5b4a4",
+        "name": "Girls Scheme",
+        "description": "Girls can receive an amout of R.S.1000 monthly.",
+        "eligibility": "School Students",
+        "deadline": "2025-12-31T00:00:00.000Z",
+        "annualIncome": 0,
+        "__v": 0
+    },
+    {
+        "_id": "678643cae5d122a971f5b4a8",
+        "name": "Boys Scheme",
+        "description": "Need not to pay taxes on everything",
+        "eligibility": "College Students",
+        "deadline": "2025-12-31T00:00:00.000Z",
+        "annualIncome": 100,
+        "__v": 0
+    }
+]
+
+To apply Schemes:
+{
+    "message": "Application submitted successfully"
+}
+
+
