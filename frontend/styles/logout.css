@@ -1,0 +1,17 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.container {
+    text-align: center;
+}
+
+.btn {
+    margin-top: 20px;
+}

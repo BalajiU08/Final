@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Dashboard</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles/user_dashboard.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Scheme Portal</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="scheme_listing.html">Available Schemes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="user_profile.html">User Profile</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="grievance_form.html">Submit Grievance</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="logout.html" id="logout-button">Logout</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container mt-5">
+        <h2>Welcome, <span id="user-name">[User Name]</span>!</h2>
+
+        <!-- Applied Schemes Section -->
+        <section class="mt-4">
+            <h4>Your Applied Schemes</h4>
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>Scheme Name</th>
+                        <th>Eligibility</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody id="applied-schemes-table-body">
+                    <!-- Dynamically Populated Rows -->
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Available Schemes Section -->
+        <section class="mt-4">
+            <h4>Available Schemes</h4>
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>Scheme Name</th>
+                        <th>Eligibility</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody id="available-schemes-table-body">
+                    <!-- Dynamically Populated Rows -->
+                </tbody>
+            </table>
+        </section>
+    </div>
+
+    <script src="scripts/user_dashboard.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
